@@ -9,7 +9,7 @@ Hi!
 You are observing a sample github project that should demonstrate you power of Selenide.
 Please find 2 different implementations of the same test.
 
-1. With Selenium webdriver [LoadableComponent](https://code.google.com/p/selenium/wiki/LoadableComponent) - see package `src/test/java/selenium_loadable_component`
+1. With Selenium [LoadableComponent](https://code.google.com/p/selenium/wiki/LoadableComponent) - see package `src/test/java/selenium_loadable_component`
 2. With [Selenide](http://selenide.org/) - see package `src/test/java/selenide`
 
 ### Results
@@ -27,7 +27,7 @@ loadings, ajax, timings, browser issues etc. You can **concentrate on business l
 To run tests, just type from command line:
 
 ```
-mvn test -Dgmail.username=your_email@gmail.com -Dgmail.password=your_gmail_password
+mvn test -Dusername=your_email@gmail.com -Dpassword=your_gmail_password
 ```
 
 ### How to setup IDEA project
